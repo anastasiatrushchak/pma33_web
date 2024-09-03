@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autonetics</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Lora', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            overflow-y: scroll;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        section::before {
+            content: '•';
+            position: absolute;
+            left: -20px;
+            top: 20px;
+            font-size: 30px;
+            color: #333;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            height: 10%;
+            width: 100%;
+            bottom: 0;
+        }
+        .logo {
+            width: 100px;
+            height: auto;
+        }
+        .content-image {
+            max-width: 100%;
+            height: auto;
+        }
+        .company-info {
+            font-family: 'Lora', serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="assets/logoAutonetics.png" alt="Логотип" class="logo">
+        <h1>Autonetics</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Головна</a></li>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#services">Послуги</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Основний інформація</h2>
+            <p>Це основний контент сторінки. Тут можна розмістити текст, зображення, відео та інші елементи.</p>
+        </section>
+        <section id="about" class="company-info">
+            <h2>Про компанію</h2>
+            <p>Autonetics спеціалізується на розробці інноваційних мобільних додатків, що забезпечують високий рівень функціональності та зручності для користувачів. Наша команда талановитих розробників працює над створенням рішень, які відповідають найсучаснішим технологічним стандартам. Ми прагнемо до того, щоб кожен наш додаток був не тільки корисним, але й простим у використанні, що дозволяє нашим клієнтам досягати своїх цілей з легкістю та ефективністю.</p>
+        </section>
+        <section id="services">
+            <h2>Наші Послуги</h2>
+            <p>Ми пропонуємо широкий спектр послуг з розробки мобільних додатків, включаючи консалтинг, проектування UX/UI, програмування та технічну підтримку. Наш підхід орієнтований на клієнта, і ми завжди готові піти на зустріч вашим потребам.</p>
+        </section>
+        
+    </main>
+    <footer>
+        <p>© 2024 Всі права захищені.</p>
+        <p>Контактна інформація: <a href="mailto:yurii.flys@lnu.edu.ua">yurii.flys@lnu.edu.ua</a></p>
+        <p><a href="#privacy">Політика конфіденційності</a></p>
+    </footer>
+</body>
+</html>
