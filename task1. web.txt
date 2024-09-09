@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Базова HTML-сторінка</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #ffffff;
+            color: black;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav ul {
+            list-style-type: disc; 
+            padding-left: 20px;
+            text-align: left;
+        }
+        nav ul li {
+            margin-bottom: 10px; 
+        }
+        nav a {
+            color: black;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #ffffff;
+            color: black;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            header, footer {
+                padding: 20px;
+                text-align: center;
+            }
+            nav {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            nav ul {
+                padding-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Природа</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Головна</a></li>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#services">Послуги</a></li>
+                <li><a href="#footer">Контакти</a></li> <!-- Змінив на #footer -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Сад</h2>
+            <p>Приро́да (термін є частковою калькою латинського слова natūra — від лат. natus — «народжений, породжений»)[1] — багатозначний термін, що залежно від контексту, може означати:</p>
+            <p>У широкому розумінні, природа — органічний і неорганічний матеріальний світ, Всесвіт, у всій сукупності і зв'язках його форм, що є основою людської діяльності і пізнання, головний предмет вивчення науки, зокрема того, що створене діяльністю людини. Саме в такому, найширшому розумінні, природа вивчається природознавством — сукупністю наук про світ, котрі ставлять перед собою мету відкриття законів природи. </p>
+          
+            <img src="C:/Users/darko/Downloads/Telegram Desktop/image.garden.jpg" alt="Гарден" style="width:100%; max-width:600px;">
+        </section>
+        <section>
+            <h2>Інша секція</h2>
+            <p>Відповідно до уявлення про природну цілісність світу (О. М. Костенко) «Природа — це сутність, що породжує усе суще і дає йому закони». На такому визначенні «природи» засновується так звана теорія «трьох природ», згідно з якою існують три природи: фізична природа, біологічна природа, соціальна природа.</p>
+        </section>
+    </main>
+
+    <footer id="footer"> 
+        <p>© 2024 Всі права захищені. Контактна інформація: example@example.com</p>
+        <p><a href="#privacy" style="color: black;">Політика конфіденційності</a></p>
+    </footer>
+
+</body>
+</html>
