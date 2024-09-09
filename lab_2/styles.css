@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #007acc;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+.header-title {
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#about, #skills, #education, #experience, #contacts {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+    color: #007acc;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input {
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #990000;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.social-media a:hover {
+    color: #007acc;
+}
+
+@media (min-width: 768px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 20px;
+    }
+}

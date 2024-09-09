@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Персональна сторінка резюме</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="header-title">Rostyslav Pasternak</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Technologies</a></li>
+                <li><a href="#education">Courses</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contacts">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Java Developer with a strong background in addressing complex challenges and collaborating with teams to deliver high-quality, innovative solutions. Experienced in both Java and Node.js, with a focus on developing scalable applications and enhancing backend services. Possesses excellent teamwork skills and promotes the development of cooperation and the achievement of collective success. Eager to advance skills and contribute to projects in a dynamic environment with passionate technology professionals.</p>
+        </section>
+
+
+        <section id="skills">
+            <h2>Technologies</h2>
+            <ul>
+                <li>Languages: Java, Java EE, JavaScript, HTML, CSS, Node.js,</li>
+                <li>Frameworks and Libraries: Spring Boot, Spring MVC, Spring Data, Hibernate,
+                    JPA, JUnit, Mockito, Express.js, Passport.js</li>
+                <li>Databases: Postgresql, MySQL, MongoDB</li>
+                <li>Tools: Git, Docker, IntelliJ IDEA</li>
+                <li>Methodologies: Object-Oriented Programming (OOP), SOLID, Test-Driven
+                    Development (TDD)</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Courses</h2>
+            <ol>
+                <li>Java Fundamentals, Softserve academy</li>
+                <li>HTML5/ CSS3/JavaScript Fundamentals, Softserve academy</li>
+                <li>Devops for Developer</li>
+                <li>Database Fundamentals, Softserve academy</li>
+                <li>Practical Java</li>
+            </ol>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <details>
+                <summary>Lviv IT Cluster, Autonetics</summary>
+                <p>Participated in the development of a mobile app for buying and selling products, featuring an intuitive user interface. I was responsible for the frontend development using React Native, creating a cross-platform application for both iOS and Android with an excellent user experience. I also integrated AI capabilities utilizing OpenAI API.</p>
+            </details>
+            <details>
+                <summary>Appexoft</summary>
+                <p>I work at Appexoft as a Node.js developer. I am engaged in the development of server logic, integration with databases, writing APIs, optimizing the code to improve the performance of applications, and also collaborate with the team to introduce new features.</p>            </details>
+        </section>
+
+        <section id="contacts">
+            <h2>Контакти</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Send</button>
+            </form>
+            <div class="social-media">
+                <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>2024 Rostyslav Pasternak</p>
+    </footer>
+</body>
+</html>
