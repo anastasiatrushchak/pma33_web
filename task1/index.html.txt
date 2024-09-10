@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Будівельна Компанія</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Будівельна Компанія</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Головна</a></li>
+                    <li><a href="#services">Послуги</a></li>
+                    <li><a href="#projects">Проекти</a></li>
+                    <li><a href="#contact">Контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section id="home">
+                <h2>Ласкаво просимо до нашої компанії</h2>
+                <p>Ми пропонуємо високоякісні послуги у сфері будівництва. Зв'яжіться з нами для отримання консультації та деталей.</p>
+                <img src="image.jpg" alt="Будівельний проект">
+            </section>
+            
+            <section id="services">
+                <h2>Наші Послуги</h2>
+                <p>Ми спеціалізуємося на різноманітних будівельних послугах, включаючи:</p>
+                <ul>
+                    <li>Будівництво житлових і комерційних об'єктів</li>
+                    <li>Ремонт і реконструкція</li>
+                    <li>Консультації та проектування</li>
+                </ul>
+            </section>
+
+            <section id="projects">
+                <h2>Наші Проекти</h2>
+                <p>Ось кілька наших успішних проектів:</p>
+                <ul>
+                    <li>Житловий комплекс "Експо"</li>
+                    <li>Офісний центр "Бізнес"</li>
+                    <li>Реконструкція історичної будівлі</li>
+                </ul>
+            </section>
+
+            <section id="contact">
+                <h2>Контакти</h2>
+                <p>Для зв'язку з нами використовуйте наступні контактні дані:</p>
+                <p>Email: info@buildcompany.ua</p>
+                <p>Телефон: +380 123 456 789</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Будівельна Компанія. Всі права захищені.</p>
+            <ul>
+                <li><a href="#">Політика конфіденційності</a></li>
+                <li><a href="#">Умови користування</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
