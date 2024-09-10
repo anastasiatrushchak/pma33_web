@@ -1,0 +1,76 @@
+body {
+            background-color: #cbb4d9;
+            color: #003B4A;
+            font-family: Ubuntu Mono;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        header img {
+            width: 500px;
+        }
+        h1 {
+            font-family: Shantell Sans;
+            font-size: 300%;
+        }
+        h2 {
+            font-family: Amatic SC;
+            border: 2px solid powderblue;
+            padding: 30px;
+        }
+        p {
+            font-family: Ubuntu Mono;
+        }
+@media (max-width: 480px) {
+    header {
+        margin-bottom: 20px;
+    }
+
+    header img {
+        width: 100%; 
+        max-width: 300px;     }
+
+    h1 {
+        font-size: 200%; 
+    }
+
+    h2 {
+        padding: 15px; 
+        font-size: 150%; 
+    }
+}
+        nav ul {
+            padding: 0;
+            list-style-type: none;
+        }
+        nav ul li {
+            margin-bottom: 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #003B4A;
+            padding: 5px 10px;
+            transition: background-color 0.3s ease;
+        }
+        nav ul li a:hover {
+            background-color: #D7BCC1;
+        }
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+        header, footer {
+            flex-basis: 100%;
+            text-align: center;
+        }
+        aside {
+            flex-basis: 15%;
+        }
+        main {
+            flex-basis: 85%;
+        }
+        footer {
+            background-color: #AFCEE5;
+        }
