@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  background-color: #f0f4f8;
+}
+
+header {
+  font-size: 42px;
+  text-align: center;
+}
+main {
+  display: flex;
+  margin: 0 auto 0 auto;
+  padding: 0 36px 0 36px;
+  gap: 96px;
+  margin-top: 3%;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 12px;
+}
+
+section {
+  margin-bottom: 48px;
+}
+
+.sidebar {
+  padding: 48px 24px 48px 24px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.main-info {
+  padding: 48px 24px 48px 24px;
+}
+
+.sidebar {
+  color: #f0f4f8;
+  background-color: #486581;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.sidebar h2 {
+  margin-bottom: 36px;
+}
+
+.sidebar h2::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 1px;
+  background-color: #fff;
+  margin: 36px auto 0 auto;
+}
+
+.contacts {
+  font-weight: 800;
+  margin-bottom: 22px;
+}
+
+.contacts-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.contacts-info-list {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+}
+
+.name {
+  margin-top: 24px;
+}
+
+form {
+  margin-top: 32px;
+}
+
+form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+}
+
+form input {
+  margin-bottom: 20px;
+}
+
+form button {
+  display: block;
+  border: none;
+  padding: 6px 12px 6px 12px;
+  background-color: #74c0fc;
+  border-radius: 4px;
+  color: #f0f4f8;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+form button:hover {
+  background-color: #35469c;
+  cursor: pointer;
+}
+
+.skills ul {
+  list-style-type: none;
+}
+
+.edu ul {
+  list-style-type: none;
+}
+.edu ul h4 {
+  margin: 4px 0 12px 0;
+}
+
+.courses {
+  margin-top: 8px;
+}
+
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 0;
+  }
+}

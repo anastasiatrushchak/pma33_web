@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 1</title>
+
+    <style>
+      * {
+        background-color: #f2f3f5;
+        font-family: sans-serif;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      header nav ul {
+        list-style: none;
+        display: flex;
+        gap: 16px;
+      }
+
+      header nav ul li a {
+        text-decoration: none;
+        list-style: none;
+      }
+
+      main {
+        max-width: 85%;
+        margin: 0 auto 0 auto;
+      }
+
+      main section {
+        margin-bottom: 96px;
+      }
+
+      main section p {
+        font-size: 18px;
+      }
+
+      main .s1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      main .s1 p {
+        font-size: 22px;
+        max-width: 50%;
+      }
+
+      main .s1 p span {
+        font-weight: 700;
+      }
+
+      main section h3 {
+        font-size: 28px;
+        margin-bottom: 28px;
+      }
+
+      main section ul {
+        font-size: 20px;
+      }
+
+      main section ul li {
+        margin-bottom: 8px;
+      }
+
+      main section a {
+        font-size: 24px;
+      }
+
+      footer {
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        min-width: 100vw;
+        padding: 0 24px 8px 24px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/006/298/276/non_2x/gear-smart-eps-icon-digital-tech-business-logo-free-vector.jpg"
+          alt="Logo"
+          height="48"
+          width="48"
+        />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Головна</a></li>
+          <li><a href="#">Про нас</a></li>
+          <li><a href="#">Вхід</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="s1">
+        <p>
+          <span>TechNova</span> — це лідер у сфері технологічних рішень, що
+          трансформують ваш бізнес та життя.
+        </p>
+        <img src="/123.png" alt="A guy sitting with a laptop" />
+      </section>
+      <section>
+        <p>
+          Ми спеціалізуємося на інтеграції штучного інтелекту,
+          блокчейн-технологій та автоматизації процесів, щоб ваш бізнес міг
+          отримати конкурентні переваги та ефективно реагувати на сучасні
+          виклики. Віримо, що завдяки нашим рішенням ваші бізнес-процеси стануть
+          більш прозорими, швидкими та продуктивними.
+        </p>
+        <a href="#footer">Вниз</a>
+      </section>
+      <section>
+        <p>
+          Наша команда використовує передові технології машинного навчання та
+          аналізу даних, щоб допомогти вашій компанії приймати більш
+          обґрунтовані рішення та покращувати взаємодію з клієнтами. Завдяки
+          нашим інноваційним підходам ви зможете оптимізувати свої ресурси та
+          досягти нових висот у розвитку бізнесу.
+        </p>
+      </section>
+      <section class="s2">
+        <h4>Чому саме ми?</h4>
+        <ul>
+          <li>
+            Інновації: Ми завжди прагнемо до новаторських рішень, що
+            випереджають час.
+          </li>
+          <li>
+            Надійність: Наші продукти відзначаються високою надійністю та
+            якістю.
+          </li>
+          <li>
+            Підтримка: Наша команда готова допомогти вам на кожному етапі
+            впровадження.
+          </li>
+        </ul>
+        <form>
+          <label for="email">Ваш email</label>
+          <input type="email" id="email" name="email" required />
+          <button type="submit">Підписатись</button>
+        </form>
+      </section>
+    </main>
+    <footer id="footer">
+      <p class="p1">&copy; 2024 TechNova. Всі права захищено.</p>
+      <p>bohdan.bubniak@lnu.edu.ua</p>
+    </footer>
+  </body>
+</html>
