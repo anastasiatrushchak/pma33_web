@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Персональне Резюме</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="page-container">
+        <div class="side-image left">
+            <img src="PicsArt_06-06-03.46.19.jpg" alt="Your Photo">
+        </div>
+        
+        <div class="content">
+            <header>
+                <h1>Резюме</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#about">Про мене</a></li>
+                        <li><a href="#skills">Навички</a></li>
+                        <li><a href="#education">Освіта</a></li>
+                        <li><a href="#experience">Досвід роботи</a></li>
+                        <li><a href="#contact">Контакти</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section id="about">
+                <h2>Про мене</h2>
+                <p>Мене звати Вікторія, родом я із Волині. Навчаюсь у Львові.</p>
+            </section>
+
+            <section id="skills">
+                <h2>Навички</h2>
+                <ul>
+                    <li>c++</li>
+                    <li>c#</li>
+                    <li>python</li>
+                </ul>
+            </section>
+
+            <section id="education">
+                <h2>Освіта</h2>
+                <p>Закінчила ліцей імені Євгена Шабліовського у місті Камінь-Каширський, Волинська область. На разі навчаюсь у Львові в національному університеті імені Івана Франка.</p>
+            </section>
+
+            <section id="experience">
+                <h2>Досвід роботи</h2>
+                <details>
+                    <summary><strong>WILLSON & BROWN</strong> — літо 2023</summary>
+                    <p>Компанія у Варшаві, яка виконувала замовлення Німеччини.</p>
+                </details>
+                <details>
+                    <summary><strong>Rozmary</strong> — весна 2024</summary>
+                    <p>Nails Master - на даній роботі я комунікую з людьми.</p>
+                </details>
+            </section>
+
+            <section id="contact">
+                <h2>Контакти</h2>
+                <form action="#" method="post">
+                    <label for="name">Ім'я:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Електронна пошта:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Відправити</button>
+                </form>
+                <div class="social-media">
+                    <a href="https://www.instagram.com/vrockite" target="_blank" class="instagram-btn">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </div>
+            </section>
+        </div>
+        
+        <div class="side-image right">
+            <img src="20230527_161548.jpg" alt="Your Photo">
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Всі права захищені.</p>
+    </footer>
+</body>
+</html>
