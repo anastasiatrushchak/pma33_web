@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.personal-detail a {
+    color: black;
+}
+
+.personal-detail a:hover {
+    color: rgb(219, 248, 162);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    max-width: 1100px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #2d2d2d;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h1 {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 2em;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.sidebar h2 {
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #555;
+    padding-bottom: 5px;
+}
+
+.sidebar p, .sidebar ul {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    color: #000000;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.sidebar ul li {
+    margin-bottom: 5px;
+}
+
+.content {
+    width: 70%;
+    padding: 20px;
+}
+
+.content h2 {
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.content p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.job, .project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+a {
+    color: rgb(30, 51, 3);
+}
+
+a:visited {
+    color: rgb(219, 36, 36);
+}
+
+a:hover {
+    color: rgb(194, 128, 128);
+}
+
+a:active {
+    color: rgb(42, 165, 58);
+}
+
+footer {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 400px;
+}
+
+header {
+    margin-top: 30px;
+}
+
+@media (max-width: 490px) {
+    .container {
+        flex-direction: column; 
+    }
+    .sidebar, .content {
+        width: 100%; 
+    }
+}
+.accordion {
+    margin-bottom: 10px;
+    height: max-content;
+}
+
+.accordion input[type="radio"] {
+    display:none;
+}
+
+.accordion label {
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+input[type="radio"]:checked + label + .accordion-content {
+    max-height: 2000px;
+}
+
+.accordion-section i {
+    margin-left: 3%;
+}
+
+.accordion-section input[type="checkbox"]:checked ~ .accordion-section .accordion-content {
+    max-height: 0;
+}
