@@ -1,0 +1,169 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.resume-container {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    padding: 20px 0;
+    margin: 0;
+    width: 100%;
+    background-color: #EEE8C6;
+}
+
+header img {
+    border-radius: 70%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: 10%; 
+}
+
+header div {
+    flex-grow: 1;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    margin: 0;
+    margin-left: 30%;
+}
+
+h2 {
+    font-size: 20px;
+    color: #777;
+    font-weight: normal;
+    margin: 5px 0;
+    margin-left: 40%;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+
+ul li {
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+p, ul {
+    font-size: 16px; 
+    line-height: 1.5; 
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f4f4f4;
+}
+
+footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #007bff;
+}
+
+.glyphicon-earphone,
+.glyphicon-send,
+.fab.fa-instagram {
+    margin-right: 5px;
+}
+.first-project{
+    font-weight: 600;
+
+}
+
+
+
+input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  .accordion {
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+  }
+  .accordion-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    background: #333;
+    color: #fff;
+  }
+  .accordion-content {
+    overflow: hidden;
+    max-height: 0;
+    padding: 0 1em;
+    background: white;
+    transition: all 0.35s;
+  }
+  
+  .accordion-content a{
+    color:#007bff;
+  }
+
+  input:checked ~ .accordion-content {
+    max-height: 100vh;
+    padding: 1em;
+  }
+  .accordion-content * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .accordion-content ul{
+    margin-left: 5%;
+  }
+
+header ul li a{
+    color: #777;
+
+}
+
+article{
+    background-color: #F5F3E7;
+    font-family: 'Roboto', sans-serif;
+}
