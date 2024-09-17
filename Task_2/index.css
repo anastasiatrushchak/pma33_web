@@ -1,0 +1,110 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+h1 {
+  font-family: "Georgia", serif;
+  color: white;
+}
+
+h2 {
+  font-family: "Georgia", serif;
+  color: #455172;
+}
+
+header {
+  background-color: #667292;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+nav ul p {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #667292;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.accordion {
+  margin-bottom: 10px;
+  height: max-content;
+}
+
+.accordion input[type="radio"] {
+  display: none;
+}
+
+.accordion label {
+  display: block;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #667292;
+  color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+input[type="radio"]:checked + label + .accordion-content {
+  max-height: 2000px;
+}
+
+.accordion-section
+  input[type="checkbox"]:checked
+  ~ .accordion-section
+  .accordion-content {
+  max-height: 0;
+}
+@media (max-width: 768px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section {
+    margin: 10px;
+  }
+}
