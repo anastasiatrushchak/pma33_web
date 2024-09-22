@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Персональна сторінка резюме">
+    <title>Моє резюме</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">Про мене</a></li>
+                <li><a href="#skills">Навички</a></li>
+                <li><a href="#education">Освіта</a></li>
+                <li><a href="#experience">Досвід роботи</a></li>
+                <li><a href="#contacts">Контакти</a></li>
+            </ul>
+        </nav>
+        <h1>Ковальчук Дарина</h1>
+    </header>
+
+    <section id="about">
+        <h2>Про мене</h2>
+        <p>Я - веб-розробник з досвідом у створенні адаптивних і динамічних веб-сторінок. Моя мета — постійно вдосконалювати свої навички та допомагати компаніям реалізовувати їх цифрові стратегії.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Навички</h2>
+        <ul>
+            <li>HTML5, CSS3</li>
+            <li>JavaScript</li>
+            <li>React, Vue</li>
+            <li>Git, GitHub</li>
+            <li>Адаптивна верстка</li>
+        </ul>
+    </section>
+
+    <section id="education">
+        <h2>Освіта</h2>
+        <p>Національний університет імені Івана франка <br> Бакалавр у галузі Системний аналіз</p>
+    </section>
+
+    <section id="experience">
+        <h2>Досвід роботи</h2>
+        <details>
+            <summary>Веб-розробник у компанії XYZ</summary>
+            <p>Розробка та підтримка веб-сайтів для клієнтів у різних сферах бізнесу. Створення адаптивних, SEO-оптимізованих веб-сторінок.</p>
+        </details>
+        <details>
+            <summary>Фріланс-проекти</summary>
+            <p>Розробка веб-додатків для невеликих стартапів. Використання сучасних технологій для швидкого впровадження рішень.</p>
+        </details>
+    </section>
+
+    <section id="contacts">
+        <h2>Контакти</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Електронна пошта:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <button type="submit">Надіслати</button>
+        </form>
+        <div class="social">
+            <a href="mailto:dar.kovalchuk@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://instagram.com/rum.me_" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+          <ul>
+            <li><a href="#about">Про мене</a></li>
+            <li><a href="#skills">Навички</a></li>
+            <li><a href="#education">Освіта</a></li>
+            <li><a href="#experience">Досвід роботи</a></li>
+            <li><a href="#contacts">Контакти</a></li>
+          </ul>
+        </nav>
+        <p>© 2024 Моє резюме</p>
+      
+        <div class="social">
+          <a href="mailto:dar.kovalchuk@gmail.com"><i class="fas fa-envelope"></i></a>
+          <a href="https://instagram.com/rum.me_" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </footer>
+</body>
+</html>
